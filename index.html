@@ -21,7 +21,7 @@
         >
         <ul class="ul_navigation_header">
           <li>
-            <a class="a_navigation_header" href="./index.html">Studio</a>
+            <a class="a_navigation_header current" href="./index.html">Studio</a>
           </li>
           <li><a class="a_navigation_header" href="./portfolio.html">Portfolio</a></li>
           <li><a class="a_navigation_header" href="">Contacts</a></li>
@@ -48,7 +48,7 @@
         <div class="container">
         <h1 class="first_title">Effective Solutions<br>
            for Your Business</h1>
-        <button class="order_service" type="button">Order Service</button>
+        <button class="order_service" type="button" data-modal-open>Order Service</button>
         </div>
       </section>
 
@@ -391,9 +391,16 @@
      </div>
 </div>
         </footer>
-        <div class="backdrop">
+        <div class="backdrop" data-modal>
           <div class="modal">
-            <button class="modal_exit" type="button"></button>
+        
+            </svg>
+            <button class="modal_exit" type="button" data-modal-exit>
+                     <svg >
+              <use href="./images/symbol-defs.svg#icon-close">
+              </use>
+                     </svg>
+            </button>
           </div>
         </div>
         <script src="./js/modal.js"></script>

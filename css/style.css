@@ -628,11 +628,29 @@ padding: 20px 0;
 position: relative;
 overflow: auto;
 }
-.modal_exit{
+.modal_close{
   width: 24px;
 height: 24px;
-  background-image: url('../images/symbol-defs.svg#icon-close');
   position: absolute;
 top: 24px;
 right: 23px;
+background: #E7E9FC;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+border-radius: 50%;
+display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal_close:hover{
+  background: #404BBF;
+  fill: white;
+}
+.modal_close:active {
+  background: #404BBF;
+  fill: white;
+}
+.svg_close{
+  width: 8px;
+  height: 8px;
+ 
 }

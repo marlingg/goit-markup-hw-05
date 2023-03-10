@@ -93,18 +93,7 @@ display: flex;
     padding-bottom: 24px;
   position: relative;
 }
-.a_navigation_header.current {
-  color: var(--pressed-state);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  margin-right: 40px;
-  display: flex;
-  padding-top: 24px;
-  padding-bottom: 24px;
-  position: relative;
-}
+
 .a_navigation_header.current::after {
   display: block;
   position:absolute;

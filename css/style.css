@@ -93,7 +93,9 @@ display: flex;
     padding-bottom: 24px;
   position: relative;
 }
-
+.a_navigation_header.current {
+ color: var(--pressed-state);
+}
 .a_navigation_header.current::after {
   display: block;
   position:absolute;
